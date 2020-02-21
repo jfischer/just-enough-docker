@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 if [[ "$1" == "gpu" ]]; then
-  echo IMAGE=tensorflow/tensorflow:nightly-py3-gpu
-  IMAGE=tensorflow/tensorflow:nightly-py3-gpu
+  echo IMAGE=tensorflow/tensorflow:nightly-gpu-jupyter
+  IMAGE=tensorflow/tensorflow:nightly-gpu-jupyter
   echo CONTAINER=pydata-5-gpu-container
   CONTAINER=pydata-5-gpu-container
 else  
