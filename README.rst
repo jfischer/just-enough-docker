@@ -20,7 +20,7 @@ Here is a short explanation of each specific example:
 * ``2-pitfall-local-state`` - example of a pitfall: containers with mutable state inside
 * ``3-mount-local-fs`` - mount the host filesystem inside the container
 * ``4-map-user`` - map the host user into the container
-* ``5-tensorflow-notebook`` - run TensorFlow and Jupyter in a detached container
+* ``5-tensorflow-notebook`` - run TensorFlow and Jupyter in a detached container.
   We can switch between cpu and gpu execution by just changing the image name
 * ``6-repo2docker`` - build a container from a repostory (COMING SOON)
 * ``7-data-workspaces`` - manage a project as a workspace (COMING SOON)
@@ -32,6 +32,6 @@ well before I give the talk.
 
 History
 -------
-This began life as `examples from a 2018 talk<https://github.com/jfischer/docker-for-data-scientist-examples>`_.
+This began life as `examples from a 2018 talk <https://github.com/jfischer/docker-for-data-scientist-examples>`_.
 The examples have been updated and focus changed a bit based on my experiences since then and the
 evolution of the Docker ecosystem.
