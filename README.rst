@@ -23,7 +23,7 @@ Here is a short explanation of each specific example:
 * ``5-tensorflow-notebook`` - run TensorFlow and Jupyter in a detached container.
   We can switch between cpu and gpu execution by just changing the image name
 * ``6-repo2docker`` - build a container from a repostory (COMING SOON)
-* ``7-data-workspaces`` - manage a project as a workspace (COMING SOON)
+* ``7-data-workspaces`` - manage a project as a workspace
 
 Platforms
 ---------
